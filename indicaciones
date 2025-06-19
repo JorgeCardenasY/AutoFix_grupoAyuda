@@ -1,0 +1,21 @@
+[para creación de las ramas (Secciones Header, Form1 y Form2)]
+
+git checkout -b header
+git push -u origin header
+
+git checkout main
+git checkout -b form1
+git push -u origin form1
+
+git checkout main
+git checkout -b form2
+git push -u origin form2
+
+[Al cierre]
+
+git checkout header
+git checkout main
+git merge header
+git merge form1
+git merge form2
+git push
