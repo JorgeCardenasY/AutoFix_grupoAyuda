@@ -16,58 +16,43 @@
 
     <body>
         <!-- Inicio Header -->
-<<<<<<< HEAD
 
 
 
 
         
-=======
-<b><h1 class="text-center">AutoFix - Reparación de Vehículos a Domicilio</h1></b>
-<div class="container mt-4"> 
-        <h1 class="text-center mb-4">AutoFix Reparación de Vehículos a Domicilio</h1>
-        <h2 class=" mb-4">Servicios y Precios</h2>
-
-        <div class="row gx-0 gy-0 justify-content-center flex-nowrap"> 
-            <div class="col-md-4 col-sm-6">
-                <div class="card h-100 rounded-0"> <div class="card-body text-start"> 
-                    <img src="assets/aceite.png" class="card-img-top img-fluid mb-3" alt="Cambio de Aceite" > 
-                        <h5 class="card-title">Cambio de Aceite</h5>
-                        <h6 class="card-subtitle mb-2 ">Precio: $500 MXN
-                        </h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <div class="card h-100 rounded-0">
-                    <div class="card-body text-start">
-                        <img src="assets/freno.png" class="card-img-top img-fluid mb-3" alt="Revisión de Frenos">
-                        <h5 class="card-title">Revisión de Frenos</h5>
-                        <h6 class="card-subtitle mb-2 ">Precio: $700 MXN </h6>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <div class="card h-100 rounded-0">
-                    <div class="card-body text-start">
-                        <img src="assets/diagnostico_electrico.png" class="card-img-top img-fluid mb-3" alt="Diagnóstico Eléctrico">
-                        <h5 class="card-title">Diagnóstico Eléctrico</h5>
-                        <h6 class="card-subtitle mb-2 ">Precio: $600 MXN</h6>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
->>>>>>> header
         <!-- Fin Header -->
 
 
         <!-- Inicio Form1 -->
-         
+           <h4 class="text-left mb-10">Solicitar Reparación</h4>
+            
+        
+                <div class="mb-3">
+                    <label for="Nombre" class="form-label">Nombre del Cliente:</label>
+                    <input type="text" id="cliente" name="cliente" class="form-control">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="reparacion" class="form-label">Tipo de Reparación:</label>
+                    <select id="hora" name="hora" class="form-select">
+                        <option value="">Seleccione</option>
+                        <option value="Cambio de Aceite">Cambio de Aceite</option>
+                        <option value="Revisión de Frenos">Revisión de Frenos</option>
+                        <option value="Diagnóstico Eléctrico">Diagnóstico Eléctrico</option>
+                      
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="descripcion" class="form-label">Descripción:</label>
+                    <textarea class="form-control" id="descripcion" rows="5" placeholder="Escribe aquí tu mensaje..."></textarea>
+                </div>
+                
+                <div class="mb-3">
+        <label for="fechaHoraCita" class="form-label">Agendar Cita:</label>
+        <input type="datetime-local" class="form-control" id="fechaHoraCita" name="fechaHoraCita">
+
+       </div>         
 
 
 
