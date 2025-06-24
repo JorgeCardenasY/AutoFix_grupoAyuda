@@ -11,6 +11,11 @@ git checkout main
 git checkout -b form2
 git push -u origin form2
 
+git checkout main
+git checkout -b assets
+git push -u origin assets
+
+
 [Al cierre]
 
 git checkout header
